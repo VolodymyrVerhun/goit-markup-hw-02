@@ -1,0 +1,21 @@
+body {
+    background-color: #E5E5E5;
+    color: #212121;
+}
+.list {
+    list-style: none;
+}
+.logo-span {
+    color: #2196F3;
+}
+.logo {
+   color: #000000; 
+}
+/*колір заголовків color:#212121*/
+/*білий колір #FFFFFF*/
+/*сірий колір тексту #757575*/
+/* футер котакти rgba(255, 255, 255, 0.6)*/
+/* синій #2196F3*/
+/* background: #E5E5E5 */
+/*  нагша команда background: #F5F4FA; */
+/* футер background: #2F303A */
