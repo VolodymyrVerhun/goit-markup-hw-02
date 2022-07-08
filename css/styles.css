@@ -1,16 +1,3 @@
-body {
-    background-color: #E5E5E5;
-    color: #212121;
-}
-.list {
-    list-style: none;
-}
-.logo-span {
-    color: #2196F3;
-}
-.logo {
-   color: #000000; 
-}
 /*колір заголовків color:#212121*/
 /*білий колір #FFFFFF*/
 /*сірий колір тексту #757575*/
@@ -19,3 +6,100 @@ body {
 /* background: #E5E5E5 */
 /*  нагша команда background: #F5F4FA; */
 /* футер background: #2F303A */
+
+:root {
+--primary-text-color: #212121;
+--accent-color: #2196F3;
+--had-logo-color: #000000;
+--text-color: #757575;
+--hero-color: #FFFFFF;
+--footer-contact-color: rgba(255, 255, 255, 0.6);
+--primary-bg-color: #E5E5E5;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+.logo-web {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.logo {
+   color: var(--had-logo-color);
+   text-decoration: none;
+}
+.logo:focus,
+.logo:hover {
+    color: var(--accent-color);
+}
+/* навігація */
+.site-nav .link {
+color: var(--primary-text-color);
+text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.auth-nav .link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+color: var(--accent-color);
+}
+/* hero */
+.hero {
+  color: var(--hero-color);  
+}
+.hero .button {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+}
+/* секціі*/
+.section-title {
+color: var(--primary-text-color);
+}
+/* секція переваги */
+.items .text {
+    color: var(--text-color);
+}
+/* секція команда */
+
+/* footer */
+.footer .link {
+    text-decoration: none;
+    color: var(--footer-contact-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
+.footer .item {
+    color: var(--hero-color);
+}
+.footer .logo {
+color: var(--hero-color)
+}
+.footer .logo:hover,
+.footer .logo:focus {
+    color: var(--accent-color)
+}
+/* portfolio */
+.list .button {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+.list .button:hover,
+.list .button:focus {
+color: var(--hero-color);
+background-color: var(--accent-color);
+}
